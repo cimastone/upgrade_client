@@ -1,0 +1,7 @@
+﻿app_file_name: 'client_info.yaml'  # 客户端应用所在的根目录
+
+remote:
+  host: '192.168.15.55'  # 升级服务端ip
+  port: 5000  # 升级服务端口
+  url: '/upgrade/get_lastest_version'  # 升级服务访问地址
+  access_type: 'POST'  # 请求类型
